@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /plan.html
 
 Sitemap: https://nexaro-ia.com/sitemap.xml
