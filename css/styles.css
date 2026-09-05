@@ -70,7 +70,7 @@
   .pain-list li{display:flex;gap:12px;font-size:0.95rem;color:var(--papel-muted)}
   .pain-list li::before{content:'✕';color:var(--tiza);flex-shrink:0;font-weight:700;margin-top:2px}
 
-  .promise-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
+  .promise-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px;margin-bottom:40px}
   @media(max-width:600px){.promise-grid{grid-template-columns:1fr}}
   .promise{background:var(--pizarra-2);border:1px solid var(--linea);border-radius:8px;padding:22px}
   .promise .n{font-family:'Fraunces',serif;font-weight:700;font-size:1.3rem;color:var(--tiza-soft);margin-bottom:8px}
