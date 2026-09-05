@@ -42,7 +42,7 @@
   header.top .top-nav a:hover{color:var(--tiza-soft)}
   @media(max-width:560px){header.top .top-nav{top:20px;right:16px}header.top .top-nav a{font-size:0.74rem}}
 
-  .hero{min-height:100vh;display:flex;align-items:center;padding:110px 0 70px}
+  .hero.wrap{min-height:100vh;display:flex;align-items:center;padding-top:110px;padding-bottom:70px}
   .hero-grid{display:grid;grid-template-columns:1fr 260px;gap:36px;align-items:start}
   @media(max-width:640px){.hero-grid{grid-template-columns:1fr;gap:28px}.hero-photo{width:100%;aspect-ratio:4/3;margin-top:0}}
   .hero-badge{display:inline-flex;align-items:center;gap:8px;font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--tiza-soft);margin-bottom:22px}
@@ -60,6 +60,7 @@
   .cta-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
 
   section{padding:64px 0;border-top:1px solid var(--linea)}
+  section.wrap{padding-top:64px;padding-bottom:64px}
   .sec-eyebrow{font-size:0.7rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--oliva);margin-bottom:16px}
   h2{font-size:clamp(1.5rem,3.4vw,2rem);line-height:1.25;margin-bottom:18px;max-width:600px}
   p.body{color:var(--papel-muted);max-width:600px;font-size:0.98rem}
@@ -70,7 +71,7 @@
   .pain-list li{display:flex;gap:12px;font-size:0.95rem;color:var(--papel-muted)}
   .pain-list li::before{content:'✕';color:var(--tiza);flex-shrink:0;font-weight:700;margin-top:2px}
 
-  .promise-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px;margin-bottom:40px}
+  .promise-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
   @media(max-width:600px){.promise-grid{grid-template-columns:1fr}}
   .promise{background:var(--pizarra-2);border:1px solid var(--linea);border-radius:8px;padding:22px}
   .promise .n{font-family:'Fraunces',serif;font-weight:700;font-size:1.3rem;color:var(--tiza-soft);margin-bottom:8px}
@@ -98,7 +99,7 @@
   .about-photo{width:100%;aspect-ratio:1;border-radius:8px;overflow:hidden;border:1px solid var(--linea)}
   .about-photo img{width:100%;height:100%;object-fit:cover}
 
-  .cta{text-align:center;padding:80px 0}
+  .cta.wrap{text-align:center;padding-top:80px;padding-bottom:80px}
   .cta h2{margin-left:auto;margin-right:auto}
   .cta p.body{margin-left:auto;margin-right:auto}
   .cta-buttons{margin-top:30px}
