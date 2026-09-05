@@ -37,11 +37,10 @@
   header.top .logo-img{height:52px;width:auto;display:block}
   header.top .tag{font-family:'Karla',sans-serif;font-size:0.68rem;color:rgba(244,236,221,0.62);letter-spacing:0.04em;line-height:1.35;text-align:center}
   @media(max-width:560px){header.top .tag{display:none}}
-  header.top .top-nav{position:absolute;top:18px;right:28px;display:flex;align-items:center;gap:3px;padding:4px;border:1px solid var(--linea);border-radius:7px;background:rgba(29,25,19,0.78);box-shadow:0 8px 24px rgba(0,0,0,0.16);backdrop-filter:blur(10px)}
-  header.top .top-nav a{min-height:34px;display:inline-flex;align-items:center;padding:7px 13px;border-radius:4px;font-family:'Karla',sans-serif;font-size:0.82rem;font-weight:650;color:var(--papel-muted);text-decoration:none;letter-spacing:0.01em;transition:color .2s ease,background-color .2s ease}
-  header.top .top-nav a:hover{color:var(--papel);background:rgba(244,236,221,0.08)}
-  header.top .top-nav a.active{color:var(--pizarra);background:var(--papel)}
-  @media(max-width:560px){header.top .top-nav{top:16px;right:16px}header.top .top-nav a{min-height:32px;padding:6px 10px;font-size:0.74rem}}
+  header.top .top-nav{position:absolute;top:24px;right:28px}
+  header.top .top-nav a{font-family:'Karla',sans-serif;font-size:0.82rem;font-weight:600;color:var(--papel-muted);text-decoration:none;letter-spacing:0.01em;transition:color .2s ease}
+  header.top .top-nav a:hover{color:var(--tiza-soft)}
+  @media(max-width:560px){header.top .top-nav{top:20px;right:16px}header.top .top-nav a{font-size:0.74rem}}
 
   .hero{min-height:100vh;display:flex;align-items:center;padding:110px 0 70px}
   .hero-grid{display:grid;grid-template-columns:1fr 260px;gap:36px;align-items:start}
